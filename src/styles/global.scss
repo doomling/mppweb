@@ -1,0 +1,12 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.main-wrapper {
+    font-family: $mainFont;
+    background-color: $gray;
+    width: 100%;
+}
+
+.section {
+    height: calc(100vh - 8vh);
+}

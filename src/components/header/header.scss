@@ -1,0 +1,31 @@
+  @import './../../styles/global.scss';
+
+.header {
+    background: $blue;
+    color: #ffffff;
+    height: $headerSize;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo {
+        margin-top: 30px;
+        width: 50px;
+    }
+}
+
+.nav-menu-wrapper {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    .nav-menu-item {
+        .nav-menu-item--bar {
+            padding-top: 10px;
+            border-bottom: 3px solid $turquoise;
+        }
+        .nav-menu-item--title {
+            font-family: $mainFont;
+        }
+    }
+}
