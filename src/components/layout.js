@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header/header"
+import Triangle from "./section/triangle"
 import "./layout.css"
 import "./../styles/global.scss"
 
@@ -29,6 +30,7 @@ const Layout = ({ children }) => (
         <Header/>
         <section className="main-wrapper">
           <div className="section">
+            <Triangle/>
           </div>
         </section>
       </div>
